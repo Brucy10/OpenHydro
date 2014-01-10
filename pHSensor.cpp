@@ -21,6 +21,7 @@ int pHSensor::read() {
   analogreadings /= numberOfSamples;
   millivolts = ((analogreadings * arduinoVoltage) / 1024) * 1000;
   value = ((millivolts / phGain) / 59.2) + 3.9;
+  value = millivolts;
   return millivolts <= maxSaneRawValue ? OK: LOST_CONNECTION_OR_BAD_DATA;
 }
 

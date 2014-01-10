@@ -33,7 +33,7 @@ float waterCurrentMultiplier = 0.0025;
 float waterCurrentOffset = 115;//88;
 int digitalWaterLevelPins[] = {3, 5, 6, 9}; // low to high
 int analogueWaterLevelPin = A1;
-int pHPin = A3;
+int pHPin = A2;
 
 void callback(char* topic, byte* payload, unsigned int length) {} // handle incoming mqtt
 
