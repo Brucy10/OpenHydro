@@ -83,7 +83,9 @@ Full Research Note-[ http://publiclab.org/notes/code4maine/02-10-2014/cloud-sens
 **UPDATE-3/3/14**
 It appears there's an aquaponics project in England with a similar software stack in mind- http://l0l.org.uk/incredible-aquaponics-control-system/.
  Its always nice to find somebody else has independently arrived at the same conclusion in similar circusmstances.  In this case, the research team is also using Node-RED as the programming interface, with MQTT as a messaging protocol http://l0l.org.uk/2014/01/simple-node-red-web-page/.  They're hosting it on a Raspberry Pi however, and while I might end up using the Pi in the end (for its superior video handling capabilities if nothing else) I see a platform capable of running the Arduino Bridge library (either Dragino, the Arduino Yun or the upcoming Arduino TRE) as most capable of handling a large number of analog sensors and actuators.
-         
+  Another interesting suggestion came up in the comments thread from the project above-        
+http://www.hivemq.com/mqtt-over-websockets-with-hivemq/
+http://www.hivemq.com/build-javascript-mqtt-web-application/     
 
 ####Links
   * [Windowfarms](http://our.windowfarms.org/) _a vertical, indoor garden kit that allows for year-round growing in almost any window. It lets plants use natural window light, the climate control of your living space, and organic “liquid soil.”_
